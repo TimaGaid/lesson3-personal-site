@@ -1,0 +1,70 @@
+:root {
+    --page-bg: #f4efe7;
+    --white: #ffffff;
+    --text: #26221e;
+    --accent: #60402a;
+}
+
+body {
+    background: var(--page-bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.menu {
+    padding: 8px;
+    background: var(--accent);
+}
+
+.menu a {
+    color: var(--white);
+}
+
+.content {
+    box-sizing: border-box;
+    width: 92%;
+    max-width: 800px;
+    margin: 16px auto;
+    padding: 16px;
+    background: var(--white);
+}
+
+.heading {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.block {
+    margin: 16px 0;
+    padding: 12px;
+    background: var(--page-bg);
+}
+
+ul,
+ol {
+    list-style-position: inside;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 8px auto;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    font: inherit;
+    text-align: center;
+}
